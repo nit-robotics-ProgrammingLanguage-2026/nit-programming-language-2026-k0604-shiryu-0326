@@ -28,7 +28,7 @@ int main(void) {
  
         // 3の倍数でも5の倍数でもない残りの整数の総和を計算して蓄積する
         total_sum += (long)current_number;
-    }
+    }    
  
     // 計算された総和を出力する
     printf("%ld", total_sum);
