@@ -24,7 +24,7 @@ int main(void) {
         // 3の倍数または5の倍数は合計の対象外とするためスキップする
         if (current_number % 3 == 0 || current_number % 5 == 0) {
             continue;
-        }
+        }      
  
         // 3の倍数でも5の倍数でもない残りの整数の総和を計算して蓄積する
         total_sum += (long)current_number;
